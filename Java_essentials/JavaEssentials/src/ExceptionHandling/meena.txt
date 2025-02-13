@@ -1,0 +1,16 @@
+
+Solution 1: Validation for synced records
+
+Options to show the records with validations made in the modified records with the column details and get confirmation from the user to proceed with the sync process.
+
+ Queue Management feature to handle multiple requests for same customer record
+ 
+ 
+ As a dataZen Requester I want to raise a modify-request for the master data which is already pending in the Data Collection/Approval stage Or In the Data Governance process. Currently, if a modify request is submitted and the status is pending, the requester is unable to initiate the modification till the request gets completed..Need a new status called In Queue which allows multiple requests to be submitted for the same master record
+ 
+ Auto Sync of Draft Records with Master Data Version
+ 
+ 
+ Solution 2: Auto sync the records
+ 
+ Options to auto-sync the records that are changed from another source/user. It will update all the records by recently changed data on the specific record.
